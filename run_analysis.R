@@ -2,7 +2,7 @@ install.packages("dplyr")
 library(dplyr)
 
 # 1.Merges the training and the test sets to create one data set.
-## Download anc unzip dataset
+## Download and unzip dataset
 
 if(!file.exists("./dataset")){dir.create("./dataset")}
 
